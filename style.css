@@ -112,11 +112,27 @@ nav {
 
 .row__nav--row {
   width: 100%;
-  display: flex;
+   
+  
+ 
   align-items: center;
   justify-content: space-between;
   padding: 15px;
 }
+
+
+.row__row__nav--row {
+
+    display: flex;
+    margin-left: 20px;  /* Adjust the left margin */
+    margin-right: 20px; /* Adjust the right margin */  
+
+
+
+
+}
+
+
 
 .nav__link--anchor-link__hover-effect-link__hover-effect--black {
   color: black;
@@ -176,7 +192,7 @@ font-size: 40px;
 text-align: center;
 border:none;
 color:#6415ff;
-display: none;
+display: hidden;
 
 }
 
@@ -192,7 +208,7 @@ display: none;
 .btn_menu {
 border: none;
 color:#6415ff;
-display: hidden;
+display: none;
 
 }
 
@@ -301,6 +317,24 @@ header
   align-items: center;
   text-align: center;
   flex-wrap: wrap;
+}
+
+
+.header__row {
+
+    align-items: center;
+     width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+
+
+
+
 }
 
 .header-intro {
@@ -420,7 +454,7 @@ header
 }
 
 .img-header__customers {
-  width: 30%;
+  width: 100%;
   margin-top: 50px;
 }
 
@@ -442,17 +476,15 @@ header
 .wrap-img-header {
   display: flex;
 
-  flex-direction: row;
+  flex-direction: column;
 
   width: 100%;
 }
 
 .lady-image {
-  position: absolute; /* Allows the image to be moved freely */
-  top: 20%; /* Adjust the distance from the top */
-  right: 20px; /* Adjust the distance from the right */
+width: 100%;
+margin-left: 50px;
 
-  width: 60%;
 }
 
 button {
@@ -1553,13 +1585,13 @@ display:block ;
 
   }
 
-  
+  .btn_menu {
+border: none;
+color:#6415ff;
+display: flex;
 
 }
 
-
-
-@media (max-width:700px) {
 
 
 .plans {
